@@ -1,0 +1,480 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar ul a
+{
+    text-decoration: none;
+    color: white;
+}
+@media  screen and (min-width:666px) {
+    .navbar ul
+{
+    font-weight: 700;
+    font-size: 34px;
+    color: white;
+    background-color: gray;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+}
+ nav ul  li a:hover
+{
+    text-decoration: underline;
+}
+
+.content-1
+{
+    padding:202px 24px 19px 24px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hamburger
+{
+    display: none;
+}
+.navbar
+{
+    width: 100%;
+    position: fixed;
+}
+.project
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 63px;
+    padding-left: 29px;
+    padding-right: 20px;
+    padding-bottom: 29px;
+   
+   
+}
+.contact-1
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 50px;
+    padding-top: 60px;
+    font-size: 50px;
+    
+}
+.contact span
+{
+    text-align: center;
+    padding: 10px;
+}
+#contact
+{
+    padding: 10px;
+   
+}
+.contact-1 img
+{
+    height: 50px;
+    width: 50px;
+    
+   
+}
+.contact-1 .gap
+{
+    display: flex;
+    gap: 14px;
+}
+.home img
+{
+    height: 340px;
+    width: 267px;
+    border: solid 2px grey;
+    border-radius: 37%
+    /* display: none; */
+}
+.btn button
+{
+    height: 33px;
+    width: 97px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(19, 18, 18,0.4);
+    color: white;
+    cursor: pointer;
+
+}
+.btn
+{
+    padding: 21px;
+
+}
+.yoga  span 
+{
+    font-size: 94px;
+    color: gold;
+}
+.yoga img
+{
+    height: 152px;
+    width: 152px;
+}
+.skills-item h4
+{
+    font-size: 50px;
+}
+.skills img
+{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+.skills img:hover
+{
+    height: 110px;
+    width: 110px;
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+    scale: 1.2;
+}
+
+
+
+
+
+    
+}
+
+.navbar li
+{
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+
+.hamburger img 
+{
+    width: 23px;
+    height: 23px;
+}
+.hamburger
+{
+    position:absolute;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.content span
+{
+    color: white;
+    font-size: 36px;
+}
+.cross
+{
+    margin-left: 59px;
+}
+.main
+{
+    height: 644px;
+    position: relative;
+    background-repeat:round;
+    background-image:url("img-1/bg/brainwaves-website-pages-_06-01-2021-_-02.jpg");
+   
+}
+.navbar ul li
+{
+    list-style: none;
+}
+/* .content img
+{
+    background-image: url("img-1/img-background/abstract-light-circle-neon-lighting-600nw-2229711533.webp");
+} */
+
+
+@media  screen and (max-width:666px) {
+   body {
+    background-color: red;
+   } 
+   .content-1
+{
+    padding: 5px 13px 19px 17px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.content
+{
+    padding-top: 179px;
+}
+   
+   .navbar nav
+   {
+    padding-top: 41px;
+    padding-left: 10px;
+    position: absolute;
+    background-color: gray;
+    position: fixed;
+   }
+   .navbar nav li
+   {
+    padding-top: 23px;
+    font-size: 27px;
+   }
+   .content span
+    {
+    color: white;
+    font-size: 13px;
+    }
+  
+   .hamburger
+   {
+    position: absolute;
+    display: flex;
+   }
+   .navbargo
+{
+    transform: translate(-140px,0px);
+    position: absolute;
+    
+    transition: transform 0.3s ease-in;
+    
+}
+.main
+{
+    height: 373px;
+    background-size: max(1035px,100vw);
+}
+.project
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 63px;
+    padding-left: 29px;
+    padding-right: 20px;
+    padding-bottom: 29px;
+   
+   
+}
+.contact-1
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 30px;
+    padding-top: 49px;
+   
+    
+}
+.contact span
+{
+    text-align: center;
+    padding: 10px;
+}
+#contact
+{
+    padding: 10px;
+   
+}
+.contact-1 img
+{
+    height: 36px;
+    width: 36px;
+}
+.contact-1 .gap
+{
+    display: flex;
+    gap: 14px;
+}
+.home .pic
+{
+    height: 234px;
+    width: 185px;
+    /* display: none; */
+    border: solid 2px grey;
+        border-radius: 37%;
+}
+.btn button
+{
+    height: 31px;
+    width: 66px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(19, 18, 18,0.4);
+    color: white;
+    cursor: pointer;
+    display: flex;
+}
+
+.btn
+{
+    padding: 21px 0px;
+    display: flex;
+    gap: 5px;
+
+}
+.yoga span {
+    font-size:50px;
+    color: gold;
+}
+.yoga img
+{
+    height: 100px;
+    width: 100px;
+}
+.hob
+{
+    border: 2px solid gold;
+}
+.hamburger img
+{
+    position: fixed;
+}
+.skills img {
+    height: 62px;
+    width: 70px;
+}
+
+
+
+
+}
+.btn button a
+{
+    text-decoration: none;
+    color: white;
+}
+.line
+{
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+}
+body
+{
+    background-color:#424141;
+}
+.project img
+{
+    height: 100px;
+    width: 100px;
+}
+.btn button:hover
+{
+    background-color:black ;
+    color:  rgba(19, 18, 18,0.4);;
+}
+#skills-1 h2
+{
+    padding: 28px;
+    color: white;
+    text-align: center;
+}
+
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 57px;
+        padding: 20px;
+        grid-template-columns: max-content;
+        justify-content: center;
+    }
+   
+
+.skills-item
+{
+    display: flex;
+    align-items: center;
+    grid-auto-rows: auto;
+    color: white;
+    gap: 63px;
+}
+
+.skills h4
+{
+    text-align: center;
+}
+
+.project-item
+{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-auto-rows: auto;
+    color: white;
+    
+}
+.project-item img
+{
+    height: 128px;
+    width: 230px;
+}
+.cnt
+{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    border: 2px solid white;
+    gap: 16px;
+}
+.cnt view-button
+{
+     border: 2px solid white; 
+     border: none;
+  
+}
+.cnt a
+{
+    text-decoration: none;
+}
+.cnt button
+{
+    cursor: pointer;
+}
+.project-heading
+{
+    padding: 34px;
+    text-align: center;
+    color: white;
+}
+.cnt span
+{
+    text-align: center;
+}
+
+
+
+/* hobbies */
+
+
+#hobbies
+{
+    padding: 10px;
+}
+#hobbies span  h1
+{
+
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+}
+.ul-style
+{
+    padding: 20px;
+    list-style: circle;
+    color: white;
+} 
+.contact-1 .gap a
+{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
